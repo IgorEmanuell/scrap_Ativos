@@ -27,9 +27,9 @@ Crie uma pasta chamada `Entrada_arquivos` e coloque o arquivo CSV contendo as em
 ### 3. Executar o script
 Rode o script Python:
 
-\`\`\`bash
+```bash
 python nome_do_script.py
-\`\`\`
+```
 
 O script irá processar o arquivo CSV e salvar os resultados na pasta `Processados`, organizada por data.
 
@@ -40,10 +40,10 @@ Durante a execução, logs detalhados serão gerados na pasta `logs`, permitindo
 
 O arquivo CSV deve ter o seguinte formato:
 
-\`\`\`csv
+```csv
 TIPOFJ;CGCENT;OutrasColunas...
 J;12.345.678/0001-90;...
 F;123.456.789-01;...
-\`\`\`
+```
 
 Apenas as linhas com `TIPOFJ` igual a 'J' serão processadas.
