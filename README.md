@@ -17,9 +17,9 @@ Este script Python automatiza a consulta da situação cadastral de empresas uti
 ### 1. Preparar o ambiente
 Certifique-se de ter Python 3.x instalado. Instale as dependências necessárias usando `pip`:
 
-\`\`\`bash
+```bash
 pip install requests beautifulsoup4
-\`\`\`
+```
 
 ### 2. Organize os arquivos
 Crie uma pasta chamada `Entrada_arquivos` e coloque o arquivo CSV contendo as empresas a serem consultadas. O arquivo CSV deve ter as colunas `TIPOFJ` e `CGCENT`.
